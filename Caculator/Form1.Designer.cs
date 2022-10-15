@@ -34,7 +34,8 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtKetQua = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btCong = new System.Windows.Forms.Button();
+            this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -85,22 +86,33 @@
             this.txtKetQua.TabIndex = 1;
             this.txtKetQua.Text = "txtKetQua";
             // 
-            // button1
+            // btCong
             // 
-            this.button1.Location = new System.Drawing.Point(263, 247);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Cộng";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btCong.Location = new System.Drawing.Point(105, 253);
+            this.btCong.Name = "btCong";
+            this.btCong.Size = new System.Drawing.Size(94, 29);
+            this.btCong.TabIndex = 2;
+            this.btCong.Text = "Cộng";
+            this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btTru
+            // 
+            this.btTru.Location = new System.Drawing.Point(257, 253);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(94, 29);
+            this.btTru.TabIndex = 2;
+            this.btTru.Text = "Trừ";
+            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btTru);
+            this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
@@ -123,6 +135,7 @@
         private TextBox txtA;
         private TextBox txtB;
         private TextBox txtKetQua;
-        private Button button1;
+        private Button btCong;
+        private Button btTru;
     }
 }
