@@ -42,7 +42,7 @@
             // 
             this.label1.Location = new System.Drawing.Point(78, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 28);
+            this.label1.Size = new System.Drawing.Size(106, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số a";
             // 
@@ -50,7 +50,7 @@
             // 
             this.label2.Location = new System.Drawing.Point(78, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 23);
+            this.label2.Size = new System.Drawing.Size(106, 41);
             this.label2.TabIndex = 0;
             this.label2.Text = "Số b";
             // 
@@ -58,7 +58,7 @@
             // 
             this.label3.Location = new System.Drawing.Point(78, 184);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 23);
+            this.label3.Size = new System.Drawing.Size(106, 41);
             this.label3.TabIndex = 0;
             this.label3.Text = "Kết quả:";
             // 
@@ -66,7 +66,7 @@
             // 
             this.txtA.Location = new System.Drawing.Point(201, 72);
             this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(125, 27);
+            this.txtA.Size = new System.Drawing.Size(142, 27);
             this.txtA.TabIndex = 1;
             this.txtA.Text = "txtSoA";
             // 
@@ -74,7 +74,7 @@
             // 
             this.txtB.Location = new System.Drawing.Point(201, 126);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(125, 27);
+            this.txtB.Size = new System.Drawing.Size(142, 27);
             this.txtB.TabIndex = 1;
             this.txtB.Text = "txtSoB";
             // 
@@ -82,7 +82,7 @@
             // 
             this.txtKetQua.Location = new System.Drawing.Point(201, 180);
             this.txtKetQua.Name = "txtKetQua";
-            this.txtKetQua.Size = new System.Drawing.Size(125, 27);
+            this.txtKetQua.Size = new System.Drawing.Size(142, 27);
             this.txtKetQua.TabIndex = 1;
             this.txtKetQua.Text = "txtKetQua";
             // 
@@ -90,7 +90,7 @@
             // 
             this.btCong.Location = new System.Drawing.Point(105, 253);
             this.btCong.Name = "btCong";
-            this.btCong.Size = new System.Drawing.Size(94, 29);
+            this.btCong.Size = new System.Drawing.Size(111, 47);
             this.btCong.TabIndex = 2;
             this.btCong.Text = "Cộng";
             this.btCong.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             // 
             this.btTru.Location = new System.Drawing.Point(257, 253);
             this.btTru.Name = "btTru";
-            this.btTru.Size = new System.Drawing.Size(94, 29);
+            this.btTru.Size = new System.Drawing.Size(111, 47);
             this.btTru.TabIndex = 2;
             this.btTru.Text = "Trừ";
             this.btTru.UseVisualStyleBackColor = true;
